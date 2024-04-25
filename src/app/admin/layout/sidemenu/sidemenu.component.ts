@@ -15,12 +15,12 @@ constructor (){}
       this.items = [
           {
               label: 'Dashbored',
-              icon: 'pi pi-fw pi-plus',
+              icon: 'pi pi-fw pi-microsoft',
                
           },
           {
-              label: 'Delete',
-              icon: 'pi pi-fw pi-trash'
+              label: 'All Properties',
+              icon: 'pi pi-fw pi-building'
           },
           {
             label: 'Delete',
@@ -28,7 +28,7 @@ constructor (){}
           },
           {
             
-            styleClass: 'absolute bottom-0 w-full bg-white mt-3 border-top-1 border-300	',
+            styleClass: 'absolute bottom-0 col-2 bg-white mt-3 border-top-1 border-300 	',
             label: 'Logout',
             icon: 'pi pi-fw pi-trash'
             }, 
